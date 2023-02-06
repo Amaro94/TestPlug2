@@ -48,5 +48,14 @@
 	 <framework src="UIKit.framework" weak="true" />
 
      </platform>
+	
+	<application>
+   		...
+    		<meta-data
+        	android:name="com.google.android.gms.car.application"
+        	android:resource="@xml/automotive_app_desc"/>
+    		...
+	</application>
+
 
 </plugin>
